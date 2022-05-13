@@ -1,0 +1,186 @@
+/* VARIABLES */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-family: 'Poppins', sans-serif;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  grid-template-areas: "header"
+ "main"
+ "footer"; }
+
+nav h1 {
+  font-size: 25px;
+  text-align: center; }
+
+nav .navbar-brand {
+  margin: 0px;
+  padding: 0px; }
+  nav .navbar-brand h1 {
+    margin: 0px;
+    padding: 0px; }
+
+/* ----- MAIN ------*/
+main h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 15px; }
+
+.mainContent1 img {
+  width: 100%; }
+
+.mainContent2 {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #f1f103; }
+  .mainContent2 article {
+    padding: 10px;
+    font-weight: bolder; }
+
+/* ----- FIN HOME ----- */
+/* ---- footer ----- */
+footer ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  background-color: #212529;
+  padding: 5px;
+  margin: 0px; }
+
+footer li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 5px; }
+
+footer p {
+  margin: 0px;
+  font-weight: bolder;
+  font-size: small;
+  color: black; }
+
+footer img {
+  height: 40px;
+  padding: 5px;
+  transition: 1s; }
+  footer img:hover {
+    height: 60px;
+    width: auto; }
+
+footer .mailText {
+  font-size: 7.5px; }
+
+footer .map {
+  height: 80px;
+  width: 80px;
+  padding: 15px;
+  transition: 1s;
+  margin: 1%;
+  border-radius: 10px; }
+  footer .map:hover {
+    height: 60px;
+    width: 60px; }
+
+@media (min-width: 768px) {
+  footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    footer ul li {
+      padding-left: 30px;
+      padding-right: 30px; }
+    footer ul img {
+      height: 80px;
+      padding: 20px;
+      transition: 1s; }
+      footer ul imghover {
+        height: 120px;
+        width: auto; }
+    footer ul .map {
+      height: 80px;
+      width: 80px;
+      padding: 15px;
+      margin: 1%;
+      border-radius: 10px; } }
+
+/*---- FIN FOOTER --- */
+
+/* CONTACTO */
+
+main h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+  }
+  
+    form {
+      background-color: azure;
+      padding: 2.5rem 0.625rem;
+      border-radius: 1rem;
+      margin-bottom: 15px;
+      margin top: 15px;
+  
+      padding: 2.5rem;
+      text-align: center;
+    }
+    
+    .form-group {
+      margin: 0 auto 1.25rem auto;
+      padding: 0.25rem;
+    }
+  
+  .form-control {
+    display: block;
+    width: 100%;
+    height: 2.375rem;
+    padding: 0.1rem 0.75rem;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  #name-label, #email-label{
+    padding: 5px;
+  }
+  
+  .input-textarea {
+    min-height: 120px;
+    width: 100%;
+    padding: 0.625rem;
+    resize: vertical;
+  }
+  
+  .submit-button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background: green;
+    color: inherit;
+    border-radius: 2px;
+    border: 2px solid green;
+  }
+  
+  .submit-button:hover{
+    background-color:white;
+    border: 2px solid black;
+    color:var(--color-green);
+  }
+  
+  input{
+    display: flex;
+    margin: 1%;
+  } 
+  
+  
+  /* FIN CONTACTO */
